@@ -1,0 +1,129 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  box-sizing: border-box;
+
+}
+
+.bg {
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  background-size: 100vw 50vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: 
+    url(./images/pattern-background-desktop.svg);
+
+}
+
+
+.card-box {
+  background-color: #fff;
+  position: absolute;
+  height: 83%;
+  border-radius: 3rem;
+  top: 94%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  text-align: center;
+}
+
+.img-main {
+  width: 50rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 3rem;
+}
+
+.title-main {
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+
+.paragraph-main {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  width: 40rem;
+  padding-left: 7rem;
+  margin-bottom: 2.5rem;
+}
+
+.plan-box {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 2rem;
+  width: 38rem;
+  height: 5rem;
+  padding: 5.5rem;
+  margin-left: 7rem;
+  position: relative;
+}
+
+.icon-plan {
+  position: absolute;
+  left: 2.5rem;
+  top: 3.4rem;
+}
+
+.title-plan-box {
+  position: absolute;
+  font-size: 1.2rem;
+  left: 9rem;
+  top: 3.4rem;
+}
+
+.title-plan-main {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.title-plan-secondary {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.change-plan-btn {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 4.5rem;
+  left: 29rem;
+  font-size: 1.6rem;
+}
+
+.payment-btn {
+  display: block;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: none;
+  position: relative;
+  left: 7rem;
+  top: 5rem;
+  border-radius: 1.5rem;
+  width: 38rem;
+  padding: 2rem 1rem;
+}
+.payment-cancel-btn {
+  position: relative;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.6rem;
+  left: 2rem;
+  top: 10rem;
+}
